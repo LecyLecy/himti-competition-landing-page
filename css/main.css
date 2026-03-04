@@ -3,4 +3,9 @@
 @import url("./base/utilities.css");
 
 @import url("./components/navbar.css");
-@import url("./components/hero.css");
+
+@import url("./sections/hero.css");
+@import url("./sections/competitions.css");
+@import url("./sections/about.css");
+@import url("./sections/contact.css");
+@import url("./sections/footer.css");
