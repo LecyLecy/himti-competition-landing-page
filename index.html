@@ -6,95 +6,23 @@
   <title>HIMTI Competition</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="./css/main.css" />
 </head>
 <body>
-
-  <header class="site-header">
-    <div class="container header__inner">
-      <a class="brand" href="">
-        <img class="brand__logo" src="./assets/icons/HIMTI%202.svg" alt="HIMTI" />
-      </a>
-
-      <nav class="nav" aria-label="Primary navigation">
-        <ul class="nav__list">
-          <li class="nav__item"><a class="nav__link" href="">Home</a></li>
-          <li class="nav__item"><a class="nav__link" href="">Events</a></li>
-          <li class="nav__item"><a class="nav__link" href="">About</a></li>
-          <li class="nav__item"><a class="nav__link" href="">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+  <div data-include="./partials/header.html"></div>
 
   <main id="main-content">
-    <section id="home" class="hero"></section>
-
-    <section id="events" class="competitions">
-        <div class="container competitions__inner">
-            <div class="competitions__content">
-                <h2 class="competitions__title">COMPETITIONS</h2>
-
-                <div class="competitions__grid">
-                    <article class="comp-card">
-                        <img
-                            class="comp-card__img"
-                            src="./assets/images/Saly-12.png"
-                            alt="UI/UX Design illustration"
-                        />
-                        <h3 class="comp-card__title">UI/UX Design</h3>
-                        <p class="comp-card__desc">
-                            Calling all creative minds! Unleash your design prowess and join our
-                            <strong>UI/UX Design Competition.</strong>
-                        </p>
-                        <a class="comp-card__btn" href="">Learn More</a>
-                    </article>
-
-                    <article class="comp-card">
-                        <img
-                            class="comp-card__img"
-                            src="./assets/images/Saly-12-1.png"
-                            alt="Competitive Programming illustration"
-                        />
-                        <h3 class="comp-card__title">Competitive<br />Programming</h3>
-                        <p class="comp-card__desc">
-                            Showcase your coding skills, solve challenging problems!
-                        </p>
-                        <a class="comp-card__btn" href="">Learn More</a>
-                    </article>
-
-                    <article class="comp-card">
-                        <img
-                            class="comp-card__img"
-                            src="./assets/images/Saly-12-2.png"
-                            alt="App Creation illustration"
-                        />
-                        <h3 class="comp-card__title">App Creation</h3>
-                        <p class="comp-card__desc">
-                            Design groundbreaking apps to solve real-world problems in our
-                            <strong>App Creation Competition.</strong>
-                        </p>
-                        <a class="comp-card__btn" href="">Learn More</a>
-                    </article>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="about" class="section-about">
-
-    </section>
-
-    <section id="contact" class="section-contact">
-
-    </section>
-
-    <footer class="section-footer">
-
-    </footer>
+    <div data-include="./partials/hero.html"></div>
+    <div data-include="./partials/competitions.html"></div>
+    <div data-include="./partials/about.html"></div>
+    <div data-include="./partials/contact.html"></div>
   </main>
 
+  <div data-include="./partials/footer.html"></div>
+
+  <script type="module" src="./js/include.js"></script>
 </body>
 </html>
