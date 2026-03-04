@@ -1,0 +1,61 @@
+.hex-decor {
+  position: absolute;
+  inset: 0;
+  overflow: visible;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.hex {
+  position: absolute;
+  width: var(--hex-size);
+  height: var(--hex-size);
+  background: var(--hex-color);
+
+  /* bentuk hex */
+  clip-path: polygon(
+    25% 6.7%,
+    75% 6.7%,
+    100% 50%,
+    75% 93.3%,
+    25% 93.3%,
+    0 50%
+  );
+
+  transform: rotate(var(--hex-rotate));
+  transform-origin: center;
+
+  filter: drop-shadow(0 24px 40px rgba(0, 0, 0, 0.30)) !important;
+  will-change: transform, filter;
+}
+
+/* Sky Hexagon (yg kanan) */
+.hex--sky {
+  --hex-size: 563px;
+  --hex-rotate: 63deg; /* adjust rotasi */
+  --hex-color: var(--sky);
+
+  right: -260px; /* adjust horizontal */
+  top: 325px; /* adjust vertikal */
+}
+
+/* Teal Hexagon (yg atas) */
+.hex--teal {
+  --hex-size: 333px;
+  --hex-rotate: 72.56deg; /* adjust rotasi */
+  --hex-color: var(--teal);
+
+  left: 58%; /* adjust horizontal */
+  top: -225px; /* adjust vertikal */
+  transform: translateX(-50%) rotate(var(--hex-rotate));
+}
+
+/* Navy Hexagon (yg kiri) */
+.hex--navy {
+  --hex-size: 367px;
+  --hex-rotate: 100.21deg; /* adjust rotasi */
+  --hex-color: var(--navy);
+
+  left: -225px; /* adjust horizontal */
+  top: 500px; /* adjust vertikal */
+}

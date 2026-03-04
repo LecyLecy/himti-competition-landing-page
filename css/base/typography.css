@@ -1,11 +1,12 @@
+/* Font Palette */
 :root {
   --dm-sans: "DM Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   --space-grostesk: "Space Grotesk", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   --nunito-sans: "Nunito Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 }
 
+/* Default Global Font */
 body {
   font-family: var(--space-grostesk);
   margin: 0;
-  background: var(--navy);
 }

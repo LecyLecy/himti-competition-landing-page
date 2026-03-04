@@ -6,6 +6,8 @@
   --card-w: calc(442px * var(--scale));
   --gap: calc(100px * var(--scale));
   --rhythm: calc(28px * var(--scale));
+  position: relative;
+  z-index: 1;
 }
 
 .competitions__content {

@@ -1,3 +1,4 @@
+/* Palette */
 :root {
   --white: #FFFFFF;
   --sky: #00A7E1;
@@ -5,4 +6,8 @@
   --navy: #003459;
   --teal: #007EA7;
   --lavender: #808AE7;
+}
+/* Default Background Color */
+body {
+  background: var(--navy);
 }

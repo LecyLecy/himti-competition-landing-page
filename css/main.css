@@ -1,9 +1,13 @@
+/* base */
 @import url("./base/variables.css");
 @import url("./base/typography.css");
 @import url("./base/utilities.css");
 
-@import url("./components/navbar.css");
+/* components */
+@import url("./components/hexagons.css");
 
+/* sections */
+@import url("./sections/navbar.css");
 @import url("./sections/hero.css");
 @import url("./sections/competitions.css");
 @import url("./sections/about.css");
