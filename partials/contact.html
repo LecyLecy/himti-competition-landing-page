@@ -1,1 +1,41 @@
-<section id="contact" class="section-contact"></section>
+<section id="contact" class="section-contact">
+  <div class="container contact__inner">
+    <h2 class="contact__title">CONTACT US</h2>
+
+    <p class="contact__subtitle">
+      We’d love to hear from you! Whether you have questions, feedback, or need assistance,
+      please feel free to reach out. Enter your email below, and our team will get back to you
+      as soon as possible.
+    </p>
+
+    <form class="contact__form" action="" method="post" novalidate>
+      <div class="contact__fields">
+        <input
+          class="contact__input"
+          type="text"
+          name="name"
+          placeholder="Name"
+          autocomplete="name"
+        />
+
+        <input
+          class="contact__input"
+          type="email"
+          name="email"
+          placeholder="Email"
+          autocomplete="email"
+        />
+
+        <textarea
+          class="contact__textarea"
+          name="message"
+          placeholder="Message..."
+          rows="8"
+        ></textarea>
+      </div>
+
+      <button class="contact__submit" type="submit">Submit</button>
+      <p class="contact__status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
