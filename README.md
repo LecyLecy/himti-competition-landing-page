@@ -35,7 +35,7 @@ Project ini menggunakan konsep HTML partials agar tiap section bisa diedit terpi
 
 ---
 
-## How to Run (Local)
+## How to Run (Local with VSCode)
 1. Install extension "Live Server" pada VSCode
 2. Klik kanan `index.html` -> "Open with Live Server"
 
